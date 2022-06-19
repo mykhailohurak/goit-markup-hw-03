@@ -1,0 +1,252 @@
+:root {
+  --color-text: #757575;
+  --color-headline: #212121;
+  --color-accent: #2196f3;
+  --color-head: #ffffff;
+  --color-main: #ffffff;
+  --color-alternate: #f5f4fa;
+  --color-hero-footer: #2f303a;
+}
+
+body {
+  background-color: var(--color-main);
+  color: var(--color-text);
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* Header ------------------------------------ */
+
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-accent);
+}
+
+.header-logo-two {
+  color: var(--color-headline);
+}
+
+.nav-link.current,
+.contacts-link.current {
+  color: var(--color-accent);
+}
+
+.header {
+  background-color: var(--color-main);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-headline);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-accent);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--color-accent);
+}
+
+/* Section 1 Hero ---------------------------- */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  background: var(--color-hero-footer);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-main);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-main);
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-btn:hover {
+  cursor: pointer;
+  color: var(--color-headline);
+  background: var(--color-alternate);
+}
+
+/* Section 2 Advantage (hidden) -------------- */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-headline);
+}
+
+.section-advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-headline);
+}
+
+.section-advantage-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+
+/* Section 4 Our Team ------------------------ */
+
+.section-our-team {
+  background: var(--color-alternate);
+}
+
+.section-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-headline);
+}
+
+.section-team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+
+/* Footer ------------------------------------ */
+
+.footer {
+  background: var(--color-hero-footer);
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-accent);
+}
+
+.footer-logo-two {
+  color: var(--color-main);
+}
+
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+  font-weight: normal;
+  color: var(--color-main);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--color-accent);
+}
+
+/* Portfolio --------------------------------- */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-headline);
+}
+
+.portfolio-btn:hover {
+  cursor: pointer;
+  color: var(--color-main);
+  background: var(--color-accent);
+}
+
+.section-portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-headline);
+}
+
+.section-portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
