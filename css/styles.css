@@ -177,9 +177,8 @@ ul {
 
 /* Section 2 Advantage (hidden) -------------- */
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.advantage-section {
+  padding-bottom: 0;
 }
 
 .section-title {
@@ -189,18 +188,33 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-headline);
+  margin-bottom: 50px;
 }
 
-.section-advantage-title {
+.advantage-list {
+  display: flex;
+}
+
+.advantage-item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.advantage-item:last-child {
+  margin-right: 0;
+}
+
+.advantage-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
   color: var(--color-headline);
 }
 
-.section-advantage-text {
+.advantage-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
