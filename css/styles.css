@@ -221,6 +221,22 @@ ul {
   color: var(--color-text);
 }
 
+/* Section 3 Doing --------------------------- */
+
+.doing-list {
+  display: flex;
+}
+
+.doing-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.doing-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Section 4 Our Team ------------------------ */
 
 .section-our-team {
