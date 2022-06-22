@@ -33,7 +33,31 @@ ul {
 
 /* Header ------------------------------------ */
 
+.header {
+  border-bottom: 1px solid #ececec;
+  background-color: var(--color-main);
+}
+
+.container {
+  width: 1230px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
+  margin-right: 93px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -46,16 +70,23 @@ ul {
   color: var(--color-headline);
 }
 
+.nav-list {
+  display: flex;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-link.current,
 .contacts-link.current {
   color: var(--color-accent);
 }
 
-.header {
-  background-color: var(--color-main);
-}
-
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,7 +99,18 @@ ul {
   color: var(--color-accent);
 }
 
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contacts-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
