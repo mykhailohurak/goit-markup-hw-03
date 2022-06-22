@@ -288,6 +288,8 @@ ul {
 /* Footer ------------------------------------ */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--color-hero-footer);
 }
 
@@ -302,6 +304,14 @@ ul {
 
 .footer-logo-two {
   color: var(--color-main);
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-link {
